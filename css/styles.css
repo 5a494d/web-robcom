@@ -45,8 +45,7 @@ a {
     position: absolute;
     right: 0;
     top: 0;
-    background-image:url('http://lorempixel.com/1024/760/nature/3/');
-    background-size:cover;
+    background-image:url('../img/asset/back.png');
     background-attachment:fixed;
 }
 
@@ -70,11 +69,10 @@ a {
 }
 #sidebar a.logo {
   display:block;
-  padding:3px;
-  background-color:#fff;
+  padding:2px;
   color:#777777;
-  height:40px;
-  width:40px;
+  height:100px;
+  width:250px;
   margin:15px;
   font-size:26px;
   font-weight:700;
@@ -99,8 +97,8 @@ a {
   }
   #sidebar a.logo {
     font-size:50px;
-    height:75px;
-    width:75px;
+      height:100px;
+      width:250px;
     margin-bottom:30px;
   }
 }
@@ -136,4 +134,23 @@ h1,h2,h3 {
 
 small.text-muted {
   font-family:courier,courier-new,monospace;
+}
+
+.map_container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.map_container #map_canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.map_container #map_canvas{
+    background: #ccc;
 }
