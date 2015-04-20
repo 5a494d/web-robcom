@@ -36,7 +36,7 @@ a {
 }
 
 .column .padding {
-    padding: 20px;
+    padding: 0px;
 }
 
 .box {
@@ -51,6 +51,10 @@ a {
 
 .divider {
 	margin-top:5px;
+}
+hr{
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 #main {
